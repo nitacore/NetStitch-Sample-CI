@@ -21,7 +21,7 @@ namespace NetStitch_Client_Console
         {
             try
             {
-                var result = await new NetStitch.NetStitchClient("http://localhost:12345").Create<ISharedInterface>().TallyAsync(new int[] { 100, 20, 3 });
+                var result = await client.Create<ISharedInterface>().TallyAsync(new int[] { 100, 20, 3 });
                 Console.WriteLine(result);
             }
             catch (Exception)
