@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NetStitch-Sample-CI", "NetStitch-Sample-CI\NetStitch-Sample-CI.shproj", "{59273EB6-E2D1-4ECD-A9D1-97B78C18D77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStitch-Client-Console", "NetStitch-Client-Console\NetStitch-Client-Console.csproj", "{917E4FFF-EA51-44E0-9951-F4C522D4C602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStitch-Server-Console", "NetStitch-Server-Console\NetStitch-Server-Console.csproj", "{D82CBA5C-0854-457B-9231-3875F9B32F3F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{59273eb6-e2d1-4ecd-a9d1-97b78c18d77b}*SharedItemsImports = 13
+		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{917e4fff-ea51-44e0-9951-f4c522d4c602}*SharedItemsImports = 4
+		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{d82cba5c-0854-457b-9231-3875f9b32f3f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917E4FFF-EA51-44E0-9951-F4C522D4C602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917E4FFF-EA51-44E0-9951-F4C522D4C602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917E4FFF-EA51-44E0-9951-F4C522D4C602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917E4FFF-EA51-44E0-9951-F4C522D4C602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
