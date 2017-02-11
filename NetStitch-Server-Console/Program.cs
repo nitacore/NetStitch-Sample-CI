@@ -30,9 +30,9 @@ namespace NetStitch_Server_Console
             }
         }
 
-        public class Tally : ISharedInterface
+        public class MyClass : ISharedInterface
         {
-            int ISharedInterface.Tally(int[] array) => array.Sum();
+            public int Tally(int[] array) => array.Sum();
         }
 
     }

@@ -140,15 +140,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="NetStitch.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetStitch.Server.0.0.6-alpha\lib\net4.5.1\NetStitch.Common.dll</HintPath>
+      <HintPath>..\packages\NetStitch.Server.0.1.0-alpha\lib\net4.5.1\NetStitch.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NetStitch.Server, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetStitch.Server.0.0.6-alpha\lib\net4.5.1\NetStitch.Server.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\NetStitch.Server.0.1.0-alpha\lib\net4.5.1\NetStitch.Server.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -236,10 +232,6 @@
       <HintPath>..\packages\System.Text.Encodings.Web.4.3.0\lib\netstandard1.0\System.Text.Encodings.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -267,16 +259,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\NetStitch.Analyzer.0.0.2-alpha\analyzers\dotnet\cs\NetStitch.Analayzer.dll" />
+    <Analyzer Include="..\packages\NetStitch.Analyzer.0.0.5-alpha\analyzers\dotnet\cs\NetStitch.Analayzer.dll" />
   </ItemGroup>
   <Import Project="..\NetStitch-Sample-CI\NetStitch-Sample-CI.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\NetStitch.Server.0.0.6-alpha\build\NetStitch.Server.targets" Condition="Exists('..\packages\NetStitch.Server.0.0.6-alpha\build\NetStitch.Server.targets')" />
+  <Import Project="..\packages\NetStitch.Server.0.1.0-alpha\build\NetStitch.Server.targets" Condition="Exists('..\packages\NetStitch.Server.0.1.0-alpha\build\NetStitch.Server.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NetStitch.Server.0.0.6-alpha\build\NetStitch.Server.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NetStitch.Server.0.0.6-alpha\build\NetStitch.Server.targets'))" />
+    <Error Condition="!Exists('..\packages\NetStitch.Server.0.1.0-alpha\build\NetStitch.Server.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NetStitch.Server.0.1.0-alpha\build\NetStitch.Server.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
