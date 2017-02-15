@@ -32,6 +32,9 @@ namespace NetStitch_Server_Console
 
         public class MyClass : ISharedInterface
         {
+            public IList<ValueTuple<string, int, int>> Sum(IList<ValueTuple<string, int[]>> list)
+                => list.Select(x => ValueTuple.Create(x.Item1, x.Item2.Sum(), x.Item2.Length)).ToArray();
+
             public int Tally(int[] array) => array.Sum();
         }
 
