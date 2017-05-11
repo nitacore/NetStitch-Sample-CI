@@ -25,13 +25,12 @@ namespace NetStitch_Client_Console
                 var result = await stub.TallyAsync(new int[] { 100, 20, 3 });
                 Console.WriteLine(result);
 
-                var result2 = await stub.SumAsync(new[] { ValueTuple.Create("hoge", new int[] { 1, 2, 3 }) });
+                var result2 = await stub.SumAsync(new[] { ("hoge", new int[] { 1, 2, 3 }) });
 
                 foreach (var item in result2)
                 {
                     //C#7
-                    //item.id, item.sum, item.count
-                    Console.WriteLine($"id: {item.Item1}, sum: {item.Item2}, count: {item.Item3}");
+                    Console.WriteLine($"id: {item.id}, sum: {item.sum}, count: {item.count}");
                 }
                 
                 Console.WriteLine();
