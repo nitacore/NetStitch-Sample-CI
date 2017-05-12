@@ -15,7 +15,7 @@ namespace NetStitch_Client_Console
             Console.ReadLine();
         }
 
-        static NetStitch.NetStitchClient client = new NetStitch.NetStitchClient("http://localhost:12345");
+        static NetStitch.NetStitchClient client = new NetStitch.NetStitchClient("http://localhost:53407/");
 
         static async Task MainAsync()
         {

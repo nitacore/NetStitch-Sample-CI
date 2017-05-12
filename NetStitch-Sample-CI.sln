@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NetStitch-Sample-CI", "NetStitch-Sample-CI\NetStitch-Sample-CI.shproj", "{59273EB6-E2D1-4ECD-A9D1-97B78C18D77B}"
 EndProject
@@ -9,11 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStitch-Client-Console", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStitch-Server-Console", "NetStitch-Server-Console\NetStitch-Server-Console.csproj", "{D82CBA5C-0854-457B-9231-3875F9B32F3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStitch-Server-WebApp", "NetStitch-Server-WebApp\NetStitch-Server-WebApp.csproj", "{0BCBBD83-A0C1-4414-9D81-B5AB5D4C51FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStitch-Client-WPF", "NetStitch-Client-WPF\NetStitch-Client-WPF.csproj", "{D9463DF9-26AA-4DBB-BEE1-AFDEA82E41DC}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{59273eb6-e2d1-4ecd-a9d1-97b78c18d77b}*SharedItemsImports = 13
 		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{917e4fff-ea51-44e0-9951-f4c522d4c602}*SharedItemsImports = 4
 		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{d82cba5c-0854-457b-9231-3875f9b32f3f}*SharedItemsImports = 4
+		NetStitch-Sample-CI\NetStitch-Sample-CI.projitems*{d9463df9-26aa-4dbb-bee1-afdea82e41dc}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +33,14 @@ Global
 		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D82CBA5C-0854-457B-9231-3875F9B32F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCBBD83-A0C1-4414-9D81-B5AB5D4C51FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCBBD83-A0C1-4414-9D81-B5AB5D4C51FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCBBD83-A0C1-4414-9D81-B5AB5D4C51FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCBBD83-A0C1-4414-9D81-B5AB5D4C51FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9463DF9-26AA-4DBB-BEE1-AFDEA82E41DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9463DF9-26AA-4DBB-BEE1-AFDEA82E41DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9463DF9-26AA-4DBB-BEE1-AFDEA82E41DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9463DF9-26AA-4DBB-BEE1-AFDEA82E41DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
